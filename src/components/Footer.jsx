@@ -2,7 +2,6 @@ const Footer = () => {
     return (
         <div id="line">
             <div onClick={() => {
-
                 window.location = "https://www.buymeacoffee.com/hromovartur"
 >
                 <img
