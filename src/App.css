@@ -16,6 +16,12 @@
   display: block;
 }
 
+#line {
+  position: fixed;
+  left: 4%;
+  bottom: 2%;
+}
+
 .App {
   text-align: center;
 }
