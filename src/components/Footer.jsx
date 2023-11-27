@@ -3,7 +3,7 @@ const Footer = () => {
         <div id="line">
             <div onClick={() => {
                 window.location = "https://www.buymeacoffee.com/hromovartur"
-            >
+            }>
                 <img
                     style={{height: "50px", borderRadius: "10px"}}
                     alt="Buy Me a Coffee Widget"
