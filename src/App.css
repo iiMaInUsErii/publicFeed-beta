@@ -16,6 +16,14 @@
   display: block;
 }
 
+.dataTime {
+  display: block;
+  width: 100%;
+  text-align: right;
+  padding: 0 3% 0 0;
+  font-size: smaller;
+}
+
 #line {
   position: fixed;
   left: 4%;

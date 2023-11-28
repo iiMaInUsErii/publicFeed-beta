@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import dayjs from 'dayjs';
 
 import ImageCard from './ImageCard';
 
@@ -15,11 +16,12 @@ const Board = () => {
         <div className='board'>
             {data.map((el, key) => {
                 return (
-                    <div class="card" key={key} style={{margin: '0 0 3% 0'}}>
+                    <div className="card" key={key} style={{margin: '0 0 3% 0'}}>
                         <ImageCard url={ el[1].img } />
-                        <div class="card-body">
-                            <h5 class="card-title">{ el[1].title }</h5>
-                            <p class="card-text">{ el[1].description }</p>
+                        <div className="card-body">
+                            <h5 className="card-title">{ el[1].title }</h5>
+                            <p className="card-text">{ el[1].description }</p>
+                            <span className="dataTime">{ el[1].time != null ? dayjs(el[1].time).format('DD-MM-YYYY HH:mm') : ''}</span>
                         </div>
                     </div>
                 )
