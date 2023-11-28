@@ -11,6 +11,8 @@ const AddCardMenu = () => {
                 img: document.getElementById('url').value,
                 description: document.getElementById('description').value,
             }),
+        }).then(() => {
+            window.location.reload()
         })
     }
 
@@ -37,7 +39,6 @@ const AddCardMenu = () => {
                             <button type="button" class="btn btn-primary"
                                 onClick={() => {
                                     sendData()
-                                    window.location.reload()
                                 }}
                             >Save changes</button>
                         </div>
