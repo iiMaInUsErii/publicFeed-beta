@@ -22,7 +22,7 @@
   text-align: right;
   padding: 0 3% 0 0;
   font-size: smaller;
-  position: absolute;
+  position: relative;
   z-index: 100;
 }
 
