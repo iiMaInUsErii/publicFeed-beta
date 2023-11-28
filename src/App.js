@@ -1,8 +1,8 @@
 import AddCardMenu from './components/AddCardMenu';
 import Board from './components/Board';
+import Footer from './components/Footer';
 
 import './App.css';
-import Footer from './components/Footer';
 
 function App() {
   return (
