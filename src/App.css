@@ -9,7 +9,7 @@
 }
 
 .card {
-  width: 30%;
+  width: 40%;
 }
 
 .modal-body span {
@@ -22,6 +22,8 @@
   text-align: right;
   padding: 0 3% 0 0;
   font-size: smaller;
+  position: absolute;
+  z-index: 100;
 }
 
 #line {
