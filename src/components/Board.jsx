@@ -14,7 +14,7 @@ const Board = () => {
 
     return (
         <div className='board'>
-            {data.map((el, key) => {
+            {data.reverse().map((el, key) => {
                 return (
                     <div className="card" key={key} style={{margin: '0 0 3% 0'}}>
                         <ImageCard url={ el[1].img } />
